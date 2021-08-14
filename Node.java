@@ -1,9 +1,9 @@
 package Day15;
 
 
-	public class Node<K, V> {
-		public K key;
-		public V value=null;
-		public Node<K, V> next=null;
-
+	public class Node {
+		public String key;
+		public Integer value=0;
+		public Node next=null;
+ 
 	}
